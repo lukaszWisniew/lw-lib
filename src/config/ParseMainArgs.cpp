@@ -81,11 +81,11 @@ lw_lib::ParseMainArgs::printVersion(string inProgram_doc, string inVersion, stri
 	cout << "" << endl;
 	cout << "  " << inProgram_doc << endl;
 	cout << "" << endl;
-	cout << "  Wersja: " << inVersion << "." << inGit_commit << endl;
-	cout << "  Data wydania: " << inRelease_date << endl;
+	cout << "  Version: " << inVersion << "." << inGit_commit << endl;
+	cout << "  Release date: " << inRelease_date << endl;
 	cout << "" << endl;
 	cout << "  Lukasz Wisniewski" << endl;
-	cout << "  2023 (C) Wszelkie prawa zastrzezone" << endl;
+	cout << "  2024 (C) All rights reserved." << endl;
 	cout << "" << endl;
 
 }
