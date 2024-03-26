@@ -61,7 +61,7 @@ lw_lib::ParseMainArgs::printHelp(string inProgram_doc, string inFoot) {
 	cout << "" << endl;
 	cout << "  " << inProgram_doc << endl;
 	cout << "" << endl;
-	cout << " Przelaczniki:"<< endl;
+	cout << " Switches:"<< endl;
 	cout << "" << endl;
 
 	for(vector<MainArg>::size_type i_argsVec = 0; i_argsVec < _argsVec.size(); ++i_argsVec) {
@@ -72,6 +72,8 @@ lw_lib::ParseMainArgs::printHelp(string inProgram_doc, string inFoot) {
 		cout << "" << endl;
 		cout << " " << inFoot << endl;
 	}
+
+	cout << "" << endl;
 
 }
 
