@@ -78,13 +78,14 @@ lw_lib::ParseMainArgs::printHelp(string inProgram_doc, string inFoot) {
 }
 
 void
-lw_lib::ParseMainArgs::printVersion(string inProgram_doc, string inVersion, string inGit_commit, string inRelease_date) {
+lw_lib::ParseMainArgs::printVersion(string inProgram_doc, string inVersion, string inGit_commit, string inRelease_date, string inBuild_date) {
 
 	cout << "" << endl;
 	cout << "  " << inProgram_doc << endl;
 	cout << "" << endl;
 	cout << "  Version: " << inVersion << "." << inGit_commit << endl;
 	cout << "  Release date: " << inRelease_date << endl;
+	cout << "  Build date: " << inBuild_date << endl;
 	cout << "" << endl;
 	cout << "  Lukasz Wisniewski" << endl;
 	cout << "  2024 (C) All rights reserved." << endl;

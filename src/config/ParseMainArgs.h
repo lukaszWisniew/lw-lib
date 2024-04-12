@@ -78,12 +78,13 @@ namespace lw_lib {
 		 * @param inVersion Program description footer.
 		 * @param inGit_commit  the git commit key
 		 * @param inRelease_date The release date of program
+		 * @param inBuild_date Program compilation date
 		 *
 		 * @return -
 		 *
 		 * @see -
 		 */
-		void printVersion(string inProgram_doc, string inVersion, string inGit_commit, string inRelease_date);
+		void printVersion(string inProgram_doc, string inVersion, string inGit_commit, string inRelease_date, string inBuild_date);
 	};
 }
 #endif /* PARSEMAINARGS_H_ */
